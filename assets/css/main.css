@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+[data-bs-theme="dark"] {
+    --bs-body-bg-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgb(13, 16, 27) 100%)!important;
+    --bs-app-header-bg: rgba(29, 40, 53, 0.35)!important;
+    --bs-body-bg-rgb: 14,19,23;
+    --bs-body-bg: #0e1317!important
+    }
+
+:root, 
+[data-bs-theme="dark"] {
+	--bs-body-bg-cover: url(images/bg2.jpg)!important;
+}
+
+:root {
+	/*--bs-body-font-family: "ZCOOL XiaoWei", sans-serif!important;*/
+	--bs-body-font-family: "ZCOOL QingKe HuangYou", sans-serif!important;
+}
+
+.tooltip,
+.popover,
+.note-editor,
+span.apexcharts-legend-text {
+	/*font-family: "ZCOOL XiaoWei", sans-serif!important;*/
+	font-family: "ZCOOL QingKe HuangYou", sans-serif!important;
+}
+
+.small,
+small {
+    font-size: 0.875em;
+}
+
+[data-toggle="card-expand"] {
+	display: none;
+}
+
+/*a.account-name{
+	padding-right: 2rem!important;
+}*/
+
+.bi.bold-i::before{
+	font-weight: 700!important;
+}
+
+.datetime {
+	text-transform: uppercase;
+}
+
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+	padding-top: 3px!important;
+	padding-left: 1px!important;
+}
+
+#sidebar .menu-text {
+	text-transform: uppercase;
+}
+
+.datetime small {
+	margin-left: 10px;
+}
+
+#switch {
+	padding-right: 2rem;
+	cursor: pointer;
+}
